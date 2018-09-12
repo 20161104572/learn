@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+var myname:String
+myname = "yunze"
+print(myname)
 
