@@ -121,6 +121,7 @@ class ViewController: UIViewController {
             if result.text == ""{
                 result.text = "0"
             }else{
+                cdd = 1
                 let x = Double(result.text!)!
                 result_1 = String(x)
                 result.text=""
@@ -145,6 +146,7 @@ class ViewController: UIViewController {
             if result.text == ""{
                 result.text = "0"
             }else{
+                cdd = 1
                let x = Double(result.text!)!
                result_1 = String(x)
                 result.text=""
@@ -169,6 +171,7 @@ class ViewController: UIViewController {
             if result.text == ""{
                 result.text = "0"
             }else{
+                cdd = 1
                 let x = Double(result.text!)!
                 result_1 = String(x)
                 result.text=""
@@ -181,18 +184,18 @@ class ViewController: UIViewController {
     @IBAction func equal(_ sender: Any) {
         var d:Double
         var c:Double
-        let x = Double(result_1)
+        let x = Double(result_1)!
         c = (result.text! as NSString).doubleValue
         if number == 1{
             d = x - c
         }else if number == 2{
             d = x + c
         }else if number == 3{
-            d = x*c
+            d = x * c
         }else{
             d = 1000
         }
-        result_2=String(c)
+        result.text=String(c)
         if judge == 1{
             result.text = String(format:"%f",d)
         }else{

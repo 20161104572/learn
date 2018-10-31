@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D47C4F7E2180158400FD3B61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D47C4F7D2180158400FD3B61 /* Default-568h@2x.png */; };
 		D4E513C5215B30A300D15A5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E513C4215B30A300D15A5C /* AppDelegate.swift */; };
 		D4E513C7215B30A300D15A5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E513C6215B30A300D15A5C /* ViewController.swift */; };
 		D4E513CA215B30A300D15A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E513C8215B30A300D15A5C /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D47C4F7D2180158400FD3B61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D4E513C1215B30A300D15A5C /* jisuanqi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jisuanqi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E513C4215B30A300D15A5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E513C6215B30A300D15A5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		D4E513B8215B30A300D15A5C = {
 			isa = PBXGroup;
 			children = (
+				D47C4F7D2180158400FD3B61 /* Default-568h@2x.png */,
 				D4E513C3215B30A300D15A5C /* jisuanqi */,
 				D4E513D8215B30A500D15A5C /* jisuanqiTests */,
 				D4E513E3215B30A500D15A5C /* jisuanqiUITests */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4E513CF215B30A500D15A5C /* LaunchScreen.storyboard in Resources */,
+				D47C4F7E2180158400FD3B61 /* Default-568h@2x.png in Resources */,
 				D4E513CC215B30A500D15A5C /* Assets.xcassets in Resources */,
 				D4E513CA215B30A300D15A5C /* Main.storyboard in Resources */,
 			);
